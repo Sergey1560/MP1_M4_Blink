@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "STM32MP1",
+            "compilerPath": "~/soft/gcc-arm-none-eabi/bin/arm-none-eabi-gcc",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "STM32MP157Axx",
+                "CORE_CM4"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
